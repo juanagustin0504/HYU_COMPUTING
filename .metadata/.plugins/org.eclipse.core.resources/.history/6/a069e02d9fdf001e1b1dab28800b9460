@@ -7,9 +7,9 @@ public class Test1 {
 		 * Date: 2024.03.11
 		 * Description: First Class
 		 */
-//		int a = 3; // 정수형 변수 a에 3값을 저장
+		int a = 3; // 정수형 변수 a에 3값을 저장
 //		int b = a;
-//		int c;
+		int c;
 		// ============================
 		
 		// 1. 설명하기 위한 주석
@@ -33,29 +33,10 @@ public class Test1 {
 		// 숫자 + 문자열 = 문자열
 		// 1 + "ㅁㄴㅇㄹ" = "1ㅁㄴㅇㄹ"
 		
-		// ============================ 
-		// Type casting (conversion)
-		double b = 4; // 암시적 캐스팅 implicit casting
-		double c = (double) 4; // 명시적 캐스팅 explicit casting
+		// Type casting
 		
-		// long -> float 정보손실
-		// double -> float //
-		// int(4byte) -> char(2byte) 명시적 캐스팅하면 들어감 (char)x;
 		
-		char ch1 = '0';
-		int i = 2;
-		ch1 = (char) i; // ㄹㅇ
 		
-		float f = 4/(float)i;
-		System.out.println(f);
-		// '/', '%' 값은 정수
-		
-		// ================================
-		// 증감연산자 += -= *= /=
-		// 증감식
-		// ++ -- +=1 -=1
-		// a++: 후연산자
-		// ++a: 전연산자
 		
 	}
 

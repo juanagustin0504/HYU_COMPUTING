@@ -1,0 +1,17 @@
+package Monday;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		/**
+		 * Date: 2024.03.11
+		 */
+		int a = 3;
+		int b = a;
+		int c;
+		
+		System.out.println(a);
+
+	}
+
+}

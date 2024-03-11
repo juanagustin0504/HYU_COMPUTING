@@ -1,0 +1,18 @@
+package Monday;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		/**
+		 * Date: 2024.03.11
+		 * Description: First Class
+		 */
+		int a = 3; // 정수형 변수 a에 3값을 저장
+//		int b = a;
+		int c;
+		
+		System.out.println(a);
+
+	}
+
+}

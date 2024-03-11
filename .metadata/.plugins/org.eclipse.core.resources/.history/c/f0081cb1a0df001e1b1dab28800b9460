@@ -39,23 +39,8 @@ public class Test1 {
 		double c = (double) 4; // 명시적 캐스팅 explicit casting
 		
 		// long -> float 정보손실
-		// double -> float //
-		// int(4byte) -> char(2byte) 명시적 캐스팅하면 들어감 (char)x;
 		
-		char ch1 = '0';
-		int i = 2;
-		ch1 = (char) i; // ㄹㅇ
 		
-		float f = 4/(float)i;
-		System.out.println(f);
-		// '/', '%' 값은 정수
-		
-		// ================================
-		// 증감연산자 += -= *= /=
-		// 증감식
-		// ++ -- +=1 -=1
-		// a++: 후연산자
-		// ++a: 전연산자
 		
 	}
 
