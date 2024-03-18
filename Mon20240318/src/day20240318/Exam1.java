@@ -16,17 +16,30 @@ public class Exam1 {
 //		}
 		
 		
-		int x = 6;
-		if (x >= 3 && x <= 6) {
-			System.out.println("A");
-		}
+//		int x = 6;
+//		if (x >= 3 && x <= 6) {
+//			System.out.println("A");
+//		}
+//		
+//		if (x >= 3) {
+//			if (x <= 6) {
+//				System.out.print("A");
+//			}
+//		}
 		
-		if (x >= 3) {
-			if (x <= 6) {
-				System.out.print("A");
+		int x = 9;
+		
+		if (x >= 0 && x <= 10) {
+			if (x < 3) {
+				System.out.println("B");
+			}
+			if (x >= 3 && x <= 6) {
+				System.out.println("A");
+			}
+			if (x > 6) {
+				System.out.println("C");
 			}
 		}
-		
 		
 	}
 
