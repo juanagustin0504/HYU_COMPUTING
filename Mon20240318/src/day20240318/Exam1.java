@@ -6,6 +6,7 @@ public class Exam1 {
 		/**
 		 * Date: 2024.03.18
 		 * Description: Condition
+		 * Point: 4.2 == 4.2 (X)
 		 */
 //		int a = 3;
 //		int b = 10;
@@ -27,19 +28,40 @@ public class Exam1 {
 //			}
 //		}
 		
-		int x = 9;
+//		int x = 9;
+//		
+//		if (x >= 0 && x <= 10) {
+//			if (x < 3) {
+//				System.out.println("B");
+//			}
+//			if (x >= 3 && x <= 6) {
+//				System.out.println("A");
+//			}
+//			if (x > 6) {
+//				System.out.println("C");
+//			}
+//		}
 		
-		if (x >= 0 && x <= 10) {
-			if (x < 3) {
-				System.out.println("B");
-			}
-			if (x >= 3 && x <= 6) {
-				System.out.println("A");
-			}
-			if (x > 6) {
-				System.out.println("C");
-			}
-		}
+//		int x = 0;
+//		
+//		if (x >= 0) {
+//			if (x < 3) {
+//				System.out.println("A");
+//			} else {
+//				if (x < 6) {
+//					System.out.println("B");
+//				} else {
+//					System.out.println("C");
+//				}
+//			}
+//		}
+		
+		// if else-if else
+		
+		// switch-case
+		// break;
+		
+		// switch-case -> if else-if else
 		
 	}
 
