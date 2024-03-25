@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
+    <entry loc="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.10.v20240120-1143" stamp="1709829549000"/>
     <entry loc="C:\Users\HYU\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143" stamp="1710152323608"/>
+<<<<<<< HEAD
     <entry loc="C:\Users\HYU\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre" stamp="1710152331894"/>
+=======
+    <entry loc="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.10.v20240120-1143/jre" stamp="1709829549000"/>
+    <entry loc="/Users/moon/Library/Java/JavaVirtualMachines/openjdk-21.0.2/Contents/Home" stamp="1709534404967"/>
+    <entry loc="C:\Users\HYU\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre" stamp="1710151728102"/>
+>>>>>>> b3ffc59 (for merge)
 </dirs>
