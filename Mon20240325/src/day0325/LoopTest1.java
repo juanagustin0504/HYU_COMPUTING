@@ -3,7 +3,7 @@ package day0325;
 public class LoopTest1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// 2024.03.25
 //		int i = 0;
 //		while (i < 10) {
 //			System.out.println("1+" + (i + 1) + "=" + (i + 2));
