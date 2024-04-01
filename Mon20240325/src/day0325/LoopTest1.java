@@ -35,7 +35,7 @@ public class LoopTest1 {
 			}
 			System.out.println();
 			i++;
-		}
+		} 
 
 	}
 
