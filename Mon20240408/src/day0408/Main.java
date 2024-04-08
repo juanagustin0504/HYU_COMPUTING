@@ -193,6 +193,21 @@ public class Main {
 //		}
 //		System.out.println(sum);
 		
+		// 3-4
+		int i = 0, j = 0;
+		while (i < 5) {
+			j = 5 - i;
+			System.out.print(j + "->");
+
+			while (j > 0) {
+				System.out.print(j);
+				j--;
+			}
+			i++;
+
+			System.out.println();
+		}
+		
 	}
 
 }

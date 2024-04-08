@@ -22,7 +22,7 @@ public class Practice3 {
 			
 			for (int j = 2; j <= value / 2; j++) {
 				
-				if (!isPrime(j) || i * j > 808087) { continue; }
+				if (!isPrime(j) || i * j > value) { continue; }
 				
 				System.out.println(i + "x" + j);
 				
