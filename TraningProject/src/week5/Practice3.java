@@ -17,13 +17,20 @@ public class Practice3 {
 		// 최소 소수는 2 이므로 2x2(i*j) 부터 시작함.
 		// 반복은 자신의 절반을 넘어가지 않도록 반복함 (2로 나눠지기 때문)
 		for (int i = 2; i <= value / 2; i++) {
+			
+			if (!isPrime(i)) { continue; }
+			
 			for (int j = 2; j <= value / 2; j++) {
+				
+				if (!isPrime(j) || i * j > 808087) { continue; }
+				
+				System.out.println(i + "x" + j);
+				
 				if (i * j == value) {
-					if (isPrime(i) && isPrime(j)) {
-						System.out.println(i + " x " + j + " = " + value);
-						flag = true;
-						break;
-					} // end of if(i&j)
+					System.out.println(i + " x " + j + " = " + value);
+					flag = true;
+					break;
+					
 				} // end of if(i*j)
 			} // end of for(j)
 
