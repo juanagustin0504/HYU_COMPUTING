@@ -168,22 +168,30 @@ public class Main {
 //			}
 //		}
 		
-		int sum1 = 0;
-		for (int a = 2; a < 101; a++) {
-			int sum = 0;
-			for (int i = 0; i < a; i++) {
-				if (a % (i+1) == 0) {
-					sum++;
-				}
-			}
-			
-			if (sum == 2) {
-//				System.out.println(a + ": 소수");
-				sum1 += a;
-			}
-		}
+//		int sum1 = 0;
+//		for (int a = 2; a < 101; a++) {
+//			int sum = 0;
+//			for (int i = 0; i < a; i++) {
+//				if (a % (i+1) == 0) {
+//					sum++;
+//				}
+//			}
+//			
+//			if (sum == 2) {
+////				System.out.println(a + ": 소수");
+//				sum1 += a;
+//			}
+//		}
+//		
+//		System.out.println(sum1);
 		
-		System.out.println(sum1);
+		// 3-3
+		// 1*2*3*4*5*6*7
+//		int sum = 1;
+//		for (int i = 0; i < 7; i++) {
+//			sum *= (i + 1);
+//		}
+//		System.out.println(sum);
 		
 	}
 
