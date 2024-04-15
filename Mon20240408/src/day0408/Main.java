@@ -236,15 +236,15 @@ public class Main {
 //		}
 		
 		// 3-6
-		for (int j = 0; j < 11; j++) {
-			for (int i = 0; i < 10 - j; i++) {
-				System.out.print(" ");
-			}
-			for (int i = 0; i < j + 1; i++) {
-				System.out.print("*");
-			}
-			System.out.print("\n");
-		}
+//		for (int j = 0; j < 11; j++) {
+//			for (int i = 0; i < 10 - j; i++) {
+//				System.out.print(" ");
+//			}
+//			for (int i = 0; i < j + 1; i++) {
+//				System.out.print("*");
+//			}
+//			System.out.print("\n");
+//		}
 				
 		
 	}
