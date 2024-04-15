@@ -194,19 +194,58 @@ public class Main {
 //		System.out.println(sum);
 		
 		// 3-4
-		int i = 0, j = 0;
-		while (i < 5) {
-			j = 5 - i;
-			System.out.print(j + "->");
-
-			while (j > 0) {
-				System.out.print(j);
-				j--;
+//		int i = 0, j = 0;
+//		while (i < 5) {
+//			j = 5 - i;
+//			System.out.print(j + "->");
+//
+//			while (j > 0) {
+//				System.out.print(j);
+//				j--;
+//			}
+//			i++;
+//
+//			System.out.println();
+//		}
+		
+		// 3-5
+//		System.out.print("1");
+//		System.out.print("5");
+//		System.out.print("/");
+//		
+//		System.out.print("2");
+//		System.out.print("4");
+//		System.out.print("/");
+//		
+//		System.out.print("3");
+//		System.out.print("3");
+//		System.out.print("/");
+//		
+//		System.out.print("4");
+//		System.out.print("2");
+//		System.out.print("/");
+//		
+//		System.out.print("5");
+//		System.out.print("1");
+//		System.out.print("/");
+		
+//		for (int i = 0; i < 5; i++) {
+//			System.out.print(i + 1);
+//			System.out.print(5 - i);
+//			System.out.print("/");
+//		}
+		
+		// 3-6
+		for (int j = 0; j < 11; j++) {
+			for (int i = 0; i < 10 - j; i++) {
+				System.out.print(" ");
 			}
-			i++;
-
-			System.out.println();
+			for (int i = 0; i < j + 1; i++) {
+				System.out.print("*");
+			}
+			System.out.print("\n");
 		}
+				
 		
 	}
 
