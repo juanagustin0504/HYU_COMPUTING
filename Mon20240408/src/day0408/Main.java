@@ -105,15 +105,15 @@ public class Main {
 //		System.out.println(sum);
 		
 		// 2-5
-//		for (int j = 0; j < 6; j++) {
-//			for (int i = 0; i < 5 - j; i++) {
-//				System.out.print(" ");
-//			}
-//			for (int i = 0; i < (2*j) + 1; i++) {
-//				System.out.print("*");
-//			}
-//			System.out.println();
-//		}
+		for (int j = 0; j < 6; j++) {
+			for (int i = 0; i < 5 - j; i++) {
+				System.out.print(" ");
+			}
+			for (int i = 0; i < (2 * j) + 1; i++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
 		
 		// 3-1
 //		int a = 10;
