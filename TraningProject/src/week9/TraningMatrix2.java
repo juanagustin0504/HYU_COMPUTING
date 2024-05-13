@@ -62,7 +62,10 @@ public class TraningMatrix2 {
 		// 곱
 		for(int i = 0; i < m; i++) {
 			for(int j = 0; j < n; j++) {
-				c[i][j] = a[i][j] * b[i][j];
+				c[i][j] = 0;
+				for(int k = 0; k < a[i].length; k++) {
+					c[i][j] += a[i][k] * b[k][j]; 
+				}
 			}
 		}
 		
@@ -70,7 +73,7 @@ public class TraningMatrix2 {
 		System.out.println("곱 결과");
 		for(int i = 0; i < m; i++) {
 			for(int j = 0; j < n; j++) {
-				System.out.printf("%3d", c[i][j]);
+				System.out.print(c[i][j] + " ");
 			}
 			System.out.println();
 		}
