@@ -3,10 +3,6 @@ package day0610;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-class Sample {
-	int a = 3;
-}
-
 class Shape {
 	
 	double[][] points;
@@ -78,22 +74,6 @@ public class Main {
 	
 	public static void main(String[] args) throws IOException {
 		
-//		Sample sp = new Sample();
-//		
-//		int[] a = new int[3];
-//		a[0] = 3; a[1] = 2; a[2] = 4;
-//		
-//		Sample[] sp1 = new Sample[3];
-//		sp1[0] = new Sample();
-//		sp1[1] = new Sample();
-//		sp1[2] = new Sample();
-//		sp1[2].a = 10;
-		
-		// 0-8
-		// 9-17
-		// 18-25
-		
-		
 		//=======n각형 돌리기=========
 		int nth = 8;
 		int repeat = 20;
@@ -122,6 +102,7 @@ public class Main {
 		VtuManager vtuManager = new VtuManager();
 		vtuManager.makeVtu("homework.vtu", total_points, total_cells);
 		
+		// ===============8각형 20개 만들기 끝=============
 		
 		
 		
