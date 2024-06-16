@@ -18,7 +18,7 @@ public class Exam1 {
 //						 {5,1,4},{1,0,4},{7,6,4},{6,5,4}};
 		
 		int nth = 8;
-		double theta = 360.0/nth * Math.PI / 180;
+		double theta = 360.0 / nth * Math.PI / 180;
 		double[][] points = new double[nth + 1][3];
 		int[][] cells = new int[nth][3];
 		points[0][0] = 0;
@@ -49,7 +49,7 @@ public class Exam1 {
 		cells[nth - 1][2] = 1;
 		
 		
-		PrintWriter pt = new PrintWriter("maketry.vtu");
+		PrintWriter pt = new PrintWriter("maketri.vtu");
 		pt.println("# vtk DataFile Version 2.0");
 		pt.println("test");
 		pt.println("ASCII");
